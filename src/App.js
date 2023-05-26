@@ -1,5 +1,5 @@
 import "./App.css";
-import cc from "../imgs/cc.png";
+import cc from "./imgs/cc.png";
 
 export default function App() {
   return (
