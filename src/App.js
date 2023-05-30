@@ -17,7 +17,7 @@ export default function App() {
       </nav>
       <div className="flex justify-center bg-[#eeeeee]">
         <div className="flex justify-center items-center min-h-screen bg-[#eeeeee]">
-          <div className="w-80 sm:w-auto px-4 py-3 mx-2 md:mx-0 mb-5 bg-white rounded-md relative">
+          <div className="w-full sm:w-auto px-4 py-3 mt-[-200px] sm:mt-4 lg:mb-[100px] bg-white rounded-md relative mb-8 sm:mb-2">
             <h1 className="text-sm text-gray-700 font-bold mb-6 bg-[#eeeeee] absolute -top-8 left-1">
               Completá los datos de tu tarjeta
             </h1>
@@ -26,7 +26,7 @@ export default function App() {
               <img
                 src={cc}
                 alt="Imagen"
-                className="hidden sm:block mx-auto w-30 h-auto my-2"
+                className="hidden sm:block mx-auto w-220 h-auto my-2"
               />
             </div>
 
@@ -71,12 +71,12 @@ export default function App() {
               />
             </div>
 
-            <div className="absolute right-0 mt-5 ml-2 space-x-2">
-              <button className="px-4 py-2 font-semibold text-white bg-[#d6e2ea] rounded mb-1">
-                <span className="text-[#009ee3]">Volver</span>
-              </button>
-              <button className="px-12 py-2 font-semibold text-white bg-[#009ee3] rounded">
+            <div className="absolute right-0 mt-5 ml-2 flex-col sm:flex-row sm:items-center">
+              <button className="px-12 py-2 font-semibold text-white bg-[#009ee3] rounded w-full sm:w-auto sm:mr-2 sm:mb-0 mb-2">
                 Continuar
+              </button>
+              <button className="px-12 py-2 font-semibold text-white bg-[#d6e2ea] rounded w-full sm:w-auto">
+                <span className="text-[#009ee3]">Volver</span>
               </button>
             </div>
           </div>
